@@ -75,14 +75,8 @@ touch Readme.txt
 git status
 커맨드 라인에서 다음과 유사한 몇 개의 텍스트 줄을 응답할 것이다:
 
-# On branch master
-# Untracked files:
-#   (use "git add ..." to include in what will be committed)
-#
-#         Readme.txt
 
-
-뭐지? 먼저, 당신은 프로젝트의 master 브랜치 상에 있다. “branched off”하지 않았기 때문에 당연하다. 두번째론, Readme.txt이 “untracked” 화일로 리스트되었다. 현재는 깃이 무시한다는 것을 뜻한다. 깃이 주목하게 하기 위해, 다음을 입력한다:
+먼저, 당신은 프로젝트의 master 브랜치 상에 있다. “branched off”하지 않았기 때문에 당연하다. 두번째론, Readme.txt이 “untracked” 화일로 리스트되었다. 현재는 깃이 무시한다는 것을 뜻한다. 깃이 주목하게 하기 위해, 다음을 입력한다:
 
 git add Readme.txt
 커맨드 라인이 주는 힌트를 보면 첫번째 화일을 추가했다는 것을 알 수 있다. 지금까지의 프로젝트 “스냅샷”을 찍거나, “커밋”할 시점이다.
