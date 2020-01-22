@@ -31,13 +31,12 @@ git merge ; 작업이 끝난 후 모든 사람이 볼 수 있는 master branch�
 git push ; local에서 작업하고 online으로 보고 싶을 때 사용하는 명령어.   
 git pull ; local에서 작업하는 중, rep의 최신 버전을 원할 때 사용하는 명령어.  
   
-* git 설정하기 위한 단계  
-  
-첫 git 설정을 위한 명령어  
+
+* 첫 git 설정을 위한 명령어  
 	- git config --global user.name "input your name"  
 	- git config --global user.mail "input your email" # 단 git을 가입할때 사용한 email  
   
-local rep 만들기  
+* local rep 만들기  
 	mkdir ~/MyProject   # mkdir ; make directory # ~/ ; 상위 폴더에 생성  
 	cd ~/MyProject      # cd ; change dir  
 	git init	    # 해당 dir이 local git rep임을 선언  
