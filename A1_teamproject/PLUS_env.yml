@@ -1,0 +1,5 @@
+name: test
+channels:
+  - defaults
+prefix: /home/pirl/anaconda3/envs/test
+
